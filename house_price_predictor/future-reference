@@ -1,0 +1,33 @@
+Here is the summary list of terminal commands you need to run in VS Code, in order:
+
+1. Create Virtual Environment
+
+Bash
+
+python -m venv venv
+
+2. Activate Environment
+
+For Windows:
+
+Bash
+
+.\venv\Scripts\activate
+
+For Mac/Linux:
+
+Bash
+
+source venv/bin/activate
+
+3. Install Libraries
+
+Bash
+
+pip install pandas scikit-learn matplotlib
+
+4. Run the Code
+
+Bash
+
+python main.py
